@@ -1,0 +1,26 @@
+.item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  padding-bottom: 6rem;
+}
+
+.item-container {
+  overflow: hidden;
+}
+
+.item-con {
+  width: 100%;
+  padding: 1.2rem 1.2rem;
+  background-color: #19202e;
+}
+
+.item-container > img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.item-container > img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
