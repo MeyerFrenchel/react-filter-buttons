@@ -50,7 +50,7 @@ function App() {
       <div className="title">
         <h1>
           Portfolio
-          <span> Filter</span>
+          <span> FilterEDITED</span>
         </h1>
       </div>
       <div>
